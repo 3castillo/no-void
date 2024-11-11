@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The VOID</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/botones.css">
+</head>
+<body>
+
+    <div>
+        <video id="background-video" autoplay loop muted>
+        <source src="../vid/void1.mp4" type="video/mp4"></video>
+    </div>
+
+
+    <div>
+        <h1 id="h1-text">The VOID</h1>
+        <button id="btn-continue">click here to continue</button> <!-- Botón básico en HTML -->
+    </div>
+
+     <!-- Jumbotron (inicialmente oculto) --> 
+    <div id="jumbotron" class="jumbotron escondejumbotron"> 
+        <h1>Welcome to: "The Void"</h1> 
+        <p>Welcome to The VOID, an anonymous website and
+            system where students can have a safe place to
+            vent/share their stories whether it’s testimonies or
+            current stressors. It is fully anonymous and ran by
+            students who monitor it and compile data and stories
+            in a monthly piece, bringing attention to what NCA
+            is struggling with as well as suggestions on how to
+            deal with such struggles. </p>
+
+        <button id="btn-jumb-ocultar" class="btn-goback">Go Back</button> <!-- Nuevo botón dentro del jumbotron --> 
+        <button id="btn-jumb-ocultar-dos" class="btn-rules">Rules on</button> <!-- Nuevo botón dentro del jumbotron --> 
+    </div> 
+
+         <!-- Jumbotron Rules (inicialmente oculto) --> 
+         <div id="jumbotron-rules" class="jumbotron escondejumbotron"> 
+            <h1>Welcome to: "The Rules"</h1>
+            <h2>"Please Read Me"</h2> 
+                <section>
+                    
+                    <ul>
+                        <li>Do not use any names in your vent.</li>
+                        <li>Please click if you would like it to truly disappear or if you are willing for it to be anonymously shared with The VOID team.</li>
+                        <li>Understand that even if you want it shared, the VOID team has the right to deny it.</li>
+                        <li>Certain words regarding harm and violence will be flagged and may not be allowed to be sent.</li>
+                    </ul>
+                </section>
+
+            <h1>Do you accept this rules?</h1>
+            <button id="btn-yes-accept" class="btn-rules">Yes/ I Accept</button> <!-- Nuevo botón dentro del jumbotron --> 
+            <button id="btn-i-dont" class="btn-rules">No/I don't</button> <!-- Nuevo botón dentro del jumbotron --> 
+
+        </div> 
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

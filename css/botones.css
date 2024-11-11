@@ -1,0 +1,249 @@
+
+/*===========BOTON DE LA VENTANA INDEX=================== */
+/* Estilo de Texto al boton continue */
+#btn-continue{
+    background-color: #ffffff00;
+    border: 2px solid transparent;
+    color: rgba(255, 255, 255, 0.301);
+    margin: 4px 2px; /* Margen */
+    font-size: 2rem;
+    transition: transform 0.6s ease-in-out, color 0.6s ease-in-out; /* Añadida transición para el efecto de zoom y cambio de color */
+    cursor: pointer; /* Cambia el cursor a una mano apuntando */
+    border: none;
+    border-radius: 7rem;
+    transition: transform 0.1s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out; /* Transición suave */
+    
+}
+
+#btn-continue:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+    color: #FCF596; /* Cambia al color secundario brillante al hacer zoom */
+    border: 2px solid;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición suave */
+}
+/*===========BOTONES DEL PRIMER JUMBOTRON=================== */
+.btn-goback{
+    width: 50%; /* o 10rem */
+    max-width: 200px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-rules{
+    width: 50%; /* o 10rem */
+    max-width: 200px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*===========BOTONES DE LA VENTANA MENTAL HEALTH STORIES =================== */
+/*===========botones (share your story y shared stories) DE LA VENTANA WRITE YOUR STORY =================== */
+.btnShareYourStory{
+
+  background-color: #c6e9ce0c; 
+  color: white; 
+  border: none; 
+  border-top-right-radius: 0px; 
+  border-bottom-right-radius: 0px; 
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px; 
+  margin-right: 3px;
+  padding: 5px 20px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  
+}
+
+.btnShareYourStory:hover { 
+  background-color: #ffffff2c;
+  transform: scale(1.1);
+  font-weight: bold;
+
+}
+
+.btnSharedStories{
+
+  background-color: #c6e9ce0c; 
+  color: white; 
+  border: none; 
+  border-top-right-radius: 10px; 
+  border-bottom-right-radius: 10px; 
+  border-top-left-radius: 0px; 
+  border-bottom-left-radius: 0px; 
+  margin-left: 3px;
+  padding: 5px 20px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  
+}
+
+.btnSharedStories:hover { 
+  background-color: #ffffff2c;
+  transform: scale(1.1);
+  font-weight: bold;
+
+}
+
+/*===========BOTON (share story here) DE LA VENTANA WRITE YOUR STORY =================== */
+.btnShareStoryHere{
+
+  background-color: #c6e9ce0c; 
+  color: white; 
+  border: none; 
+  border-top-right-radius: 10px; 
+  border-bottom-right-radius: 10px; 
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px; 
+  padding: 5px 20px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  
+}
+
+.btnShareStoryHere:hover { 
+  background-color: #ffffff2c;
+  transform: scale(1.1) translateX(10px);
+  font-weight: bold;
+
+}
+
+/*===========BOTONES DE LA VENTANA HISTORIAS COMPARTIDAS =================== */
+
+.story-buttons {
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Estilo de los botones en las historias compartidas */
+/* Navegación */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo del botón Compartir */ 
+.btn-compartir { 
+  background-color: #c6e9ce17; 
+  color: white; 
+  border: none; 
+  border-top-right-radius: 0; 
+  border-bottom-right-radius: 0; 
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px; 
+  padding: 5px 20px; cursor: pointer; 
+  font-size: 1rem; 
+} 
+.btn-compartir:hover { 
+  background-color: #ffffff75;
+}
+
+/* Estilo del botón Eliminar */ 
+.btn-eliminar { 
+  background-color: #c6e9ce17; 
+  color: white; 
+  border: none; 
+  border-top-right-radius: 10px;  
+  border-bottom-right-radius: 10px; 
+  border-top-left-radius: 0px;  
+  border-bottom-left-radius: 0px; 
+  padding: 5px 20px; cursor: pointer; 
+  font-size: 1rem; 
+} 
+.btn-eliminar:hover { 
+  background-color: #ffffff75;
+}
+
+/* Estilo del botón Comment */ 
+.btn-comment { 
+  background-color: #c6e9ce17; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+} 
+.btn-comment:hover { 
+  background-color: #ffffff; /* Efecto hover: cambiar el color de fondo a un azul más oscuro */ 
+}
+
+.story-buttons .btn {
+  background-color: #c6e9ce80;
+  color: white;
+}
+
+.story-buttons .btn:hover {
+  background-color: #2188373b;
+}
+
+.comment-form button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #0056b3; /* Hover effect */
+}
+
+/* Estilo de los comentarios */
+.comment {
+  background-color: #131111;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.story-buttons .btn:hover {
+  background-color: #2188373b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AQUI COMIENZA EL RESPONSIVE */ 
+
+@media (max-width: 600px)
+{ 
+  #btn-estylo 
+    { font-size: 0.75rem; /* Tamaño del texto ajustado para pantallas más pequeñas */ 
+      color: cornflowerblue;
+    } 
+
+  .btn-goback
+    {
+      font-size: 1rem; /* Reducir el tamaño en pantallas más pequeñas */
+    }
+
+} 
+
+
+
